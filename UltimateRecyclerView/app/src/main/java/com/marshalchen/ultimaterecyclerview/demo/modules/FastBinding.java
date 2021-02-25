@@ -4,7 +4,6 @@ import android.content.Context;
 import android.content.Intent;
 import androidx.annotation.IdRes;
 
-import com.marshalchen.ultimaterecyclerview.demo.loadmoredemo.PullToRefreshActivity;
 import com.marshalchen.ultimaterecyclerview.demo.griddemo.GridLayoutRVTest;
 import com.marshalchen.ultimaterecyclerview.demo.multiitemdemo.MultiViewTypesActivity;
 import com.marshalchen.ultimaterecyclerview.demo.R;
@@ -20,7 +19,6 @@ import com.marshalchen.ultimaterecyclerview.demo.loadmoredemo.SwipeListViewExamp
  */
 public enum FastBinding {
     action_bottom(R.id.action_bottom, MultiViewTypesActivity.class),
-    action_custom(R.id.action_custom, PullToRefreshActivity.class),
     admob(R.id.admob, TestAdMobClassicActivity.class),
     scrollactivity(R.id.scrollactivity, ScrollObservablesActivity.class),
     swipe_and_drag(R.id.swipe_and_drag, SwipeListViewExampleActivity.class),
